@@ -1,7 +1,8 @@
+/*initial big title section*/
 #title {
     overflow: hidden;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 80px;
+    font-size: 8vw;
     transform: scale(1.05,1);
     font-weight: 900;
     color: white;
@@ -37,7 +38,7 @@
 
 #title-pt1-1 {
     position: relative;
-    font-size: 30px;
+    font-size: calc(20px + 0.8vw);
     font-family: 'Montserrat Alternates', sans-serif;
     transform: scale(1.05,1);
     font-weight: 300;
@@ -48,7 +49,7 @@
 
 #title-pt2-1 {
     position: relative;
-    font-size: 30px;
+    font-size: calc(20px + 0.8vw);
     font-family: 'Montserrat Alternates', sans-serif;
     transform: scale(1.05,1);
     font-weight: 300;
@@ -59,7 +60,7 @@
 
 #title-pt1-2 {
     position: relative;
-    font-size: 30px;
+    font-size: calc(20px + 0.8vw);
     font-family: 'Montserrat Alternates', sans-serif;
     transform: scale(1.05,1);
     font-weight: 300;
@@ -70,7 +71,7 @@
 
 #title-pt2-2 {
     position: relative;
-    font-size: 30px;
+    font-size: calc(20px + 0.8vw);
     font-family: 'Montserrat Alternates', sans-serif;
     transform: scale(1.05,1);
     font-weight: 300;
@@ -81,7 +82,7 @@
 
 #title-for {
     position: relative;
-    font-size: 30px;
+    font-size: calc(20px + 0.8vw);
     font-family: 'Montserrat Alternates', sans-serif;
     transform: scale(1.05,1);
     font-weight: 300;
@@ -90,6 +91,9 @@
     opacity: 0;
 }
 
+
+
+/*cover section*/
 #cover {
     overflow: hidden;
     height:100vh;
@@ -112,7 +116,7 @@
 #summary-1 {
     position: relative;
     margin-top: 50vh;
-    font-size: 30px;
+    font-size: calc(20px + 0.8vw);
     font-family: 'Montserrat Alternates', sans-serif;
     transform: scale(1.05,1);
     font-weight: 300;
@@ -125,7 +129,7 @@
 #summary-2 {
     position: relative;
     padding-top: 200px;
-    font-size: 30px;
+    font-size: calc(20px + 0.8vw);
     font-family: 'Montserrat Alternates', sans-serif;
     transform: scale(1.05,1);
     font-weight: 800;
@@ -135,18 +139,9 @@
     text-align: center;
 }
 
-.lyrics {
-    position: relative;
-    font-size: 30px;
-    font-family: 'Montserrat Alternates', sans-serif;
-    transform: scale(1.05,1);
-    font-weight: 800;
-    color: rgb(18,17,22);
-    z-index: 8;
-    opacity: 1;
-    text-align: center;
-}
 
+
+/*music videos*/
 #mvs {
     overflow: hidden;
     height:100vh;
@@ -170,14 +165,16 @@
 }
 
 .songname {
-    font-size: 30px;
+    font-size: calc(20px + 0.8vw);
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
 
+
+/*mv description section*/
 #mv-description {
     overflow: hidden;
-    height:300vh;
+    height: 280vh;
     width:100vw;
     background-color:rgb(233,231,157);
 }
@@ -185,7 +182,7 @@
 #mv-summary {
     position: relative;
     margin-top: 50vh;
-    font-size: 30px;
+    font-size: calc(20px + 0.8vw);
     font-family: 'Montserrat Alternates', sans-serif;
     transform: scale(1.05,1);
     font-weight: 500;
@@ -197,7 +194,7 @@
 .song-names {
     position: relative;
     margin-top: 70px;
-    font-size: 30px;
+    font-size: calc(20px + 0.8vw);
     font-family: 'Montserrat Alternates', sans-serif;
     transform: scale(1.05,1);
     font-weight: 300;
@@ -211,7 +208,123 @@
     margin-top: 300px;
 }
 
-#song-vr.song-names{
+#song-vr-1.song-names{
     font-weight: 800;
     margin-top: 300px;
+}
+#song-vr-2.song-names{
+    font-weight: 800;
+    font-size: calc(20px + 0.8vw);
+    margin-top: 0px;
+}
+
+
+
+/*remix series section*/
+#remix-series {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(233,231,157);
+}
+
+.remix-covers {
+    width: 25vh;
+}
+
+.remix-grids {
+    display: grid;
+    position: relative;
+    grid-column-gap: 0px;
+    grid-template-columns: repeat(11, 25vh);
+}
+
+#remix-1 {
+    right: 54vh;
+}
+
+#remix-2 {
+    right: 13vh;
+}
+
+#remix-3 {
+    right: 68vh;
+}
+
+#remix-4 {
+    right: 10vh;
+}
+
+#remix-series-text {
+    position: relative;
+    top: -78vh;
+    font-size: calc(26px + 0.8vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    transform: scale(1.05,1);
+    font-weight: 800;
+    color: rgb(18,17,22);
+    opacity: 0;
+    text-align: center;
+    z-index: 3;
+}
+
+
+
+/*final section*/
+#final {
+    overflow: hidden;
+    height:220vh;
+    width:100vw;
+    z-index: 2;
+    background-color:rgb(233,231,157);
+}
+
+.lyrics {
+    font-size: calc(26px + 0.8vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    transform: scale(1.05,1);
+    color: rgb(18,17,22);
+    text-align: center;
+    position: relative;
+    margin-top: 45vh;
+    opacity: 0;
+}
+
+#line-2 {
+    margin-top: 0;   
+}
+
+b {
+    font-weight: 800;
+}
+
+#quote {
+    font-size: calc(13px + 0.4vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    transform: scale(1.05,1);
+    color: rgb(18,17,22);
+    text-align: center;
+    position: relative;
+    margin-top: 10vh;
+    opacity: 0;
+}
+
+#vulnicura-logo {
+    position: relative;
+    margin-top: 80vh;
+    width: 40vw;
+    left: 30vw;
+}
+
+#appre {
+    font-size: calc(13px + 0.4vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    transform: scale(1.05,1);
+    color: rgb(233,231,157);
+    text-align: center;
+    position: relative;
+    margin-top: 10vh;
 }
